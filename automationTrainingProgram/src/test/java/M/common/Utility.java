@@ -15,6 +15,8 @@ public WebDriver driver;
   @parameter ({"browsers"})
   @BeforeClass
   public void Browsers(String window) {
+	  String windows=System.getProperty("user.dir");
+	  System.out.println("windows");
 		if(window.equalsIgnoreCase("Chrome")){
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\dell\\eclipse-workspace\\automationTrainingProgram\\Drivers\\chromedriver.exe");
 		 driver = new ChromeDriver();

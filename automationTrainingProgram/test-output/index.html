@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Adhoc" class="navigator-link">
-              <span class="suite-name border-failed">Adhoc</span>
+              <span class="suite-name border-passed">Adhoc</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Adhoc" class="navigator-link ">
-                    <span>C:\Users\dell\eclipse-workspace\automationTrainingProgram\src\Function.xml</span>
+                    <span>C:\Users\dell\git\repository\automationTrainingProgram\src\Function.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,35 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,  1 skipped,  </span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Adhoc" class="hide-methods failed suite-Adhoc"> (hide)</a> <!-- hide-methods failed suite-Adhoc -->
-                      <a href="#" panel-name="suite-Adhoc" class="show-methods failed suite-Adhoc"> (show)</a> <!-- show-methods failed suite-Adhoc -->
-                    </span>
-                    <div class="method-list-content failed suite-Adhoc">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Adhoc" title="piit.automationTrainingProgram.Signout" class="method navigator-link" hash-for-method="f">f</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Adhoc -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Adhoc" class="hide-methods skipped suite-Adhoc"> (hide)</a> <!-- hide-methods skipped suite-Adhoc -->
-                      <a href="#" panel-name="suite-Adhoc" class="show-methods skipped suite-Adhoc"> (show)</a> <!-- show-methods skipped suite-Adhoc -->
-                    </span>
-                    <div class="method-list-content skipped suite-Adhoc">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Adhoc" title="piit.automationTrainingProgram.Signout" class="method navigator-link" hash-for-method="TestVerificationMethod">TestVerificationMethod</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Adhoc -->
+                    <span class="method-stats">0 methods,   </span>
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -133,82 +105,18 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Adhoc" class="panel Adhoc">
-          <div class="suite-Adhoc-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">piit.automationTrainingProgram.Signout</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;password&apos;]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;
-System info: host: &apos;DESKTOP-97C5LHG&apos;, ip: &apos;10.252.0.199&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [99d68985-6b26-48e1-afb9-6cc73ca4ed70, findElement {using=name, value=password}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:64195, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 5396, moz:profile: C:\Users\dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:64195/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 99d68985-6b26-48e1-afb9-6cc73ca4ed70
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
-	at PageObjectModel.Home.PasswordfieldsEnters(Home.java:25)
-	at piit.automationTrainingProgram.Signout.f(Signout.java:36)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Adhoc-class-failed -->
-          <div class="suite-Adhoc-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">piit.automationTrainingProgram.Signout</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TestVerificationMethod">
-                  </a> <!-- TestVerificationMethod -->
-                  <span class="method-name">TestVerificationMethod</span>
-                  <div class="stack-trace">java.lang.Throwable: Method piit.automationTrainingProgram.Signout.TestVerificationMethod() on instance piit.automationTrainingProgram.Signout@5b03b9fe depends on not successfully finished methods 
-[piit.automationTrainingProgram.Signout.f() on instance piit.automationTrainingProgram.Signout@5b03b9fe]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 18 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Adhoc-class-skipped -->
         </div> <!-- panel Adhoc -->
         <div panel-name="test-xml-Adhoc" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\dell\eclipse-workspace\automationTrainingProgram\src\Function.xml</span>
+            <span class="header-content">C:\Users\dell\git\repository\automationTrainingProgram\src\Function.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Adhoc&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;piit.automationTrainingProgram.Signout&quot;/&gt;
-    &lt;/classes&gt;
+&lt;suite thread-count=&quot;6&quot; parallel=&quot;tests&quot; name=&quot;Adhoc&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browsers&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;test thread-count=&quot;6&quot; parallel=&quot;tests&quot; name=&quot;Regression&quot;&gt;
   &lt;/test&gt; &lt;!-- Regression --&gt;
 &lt;/suite&gt; &lt;!-- Adhoc --&gt;
             </pre>
@@ -221,7 +129,7 @@ Session ID: 99d68985-6b26-48e1-afb9-6cc73ca4ed70
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Regression (1 class)</span>
+                <span class="test-name">Regression (0 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -247,20 +155,12 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
-data.setCell(0, 0, 0)
-data.setCell(0, 1, 'f')
-data.setCell(0, 2, 'piit.automationTrainingProgram.Signout')
-data.setCell(0, 3, 404);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TestVerificationMethod')
-data.setCell(1, 2, 'piit.automationTrainingProgram.Signout')
-data.setCell(1, 3, 1);
+data.addRows(0);
 window.suiteTableData['Adhoc']= { tableData: data, tableDiv: 'times-div-Adhoc'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 405 ms</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Adhoc">
               </div> <!-- times-div-Adhoc -->
             </div> <!-- times-div -->
@@ -285,26 +185,6 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="chronological-class">
-              <div class="chronological-class-name">piit.automationTrainingProgram.Signout</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">f</span>
-                <span class="method-start">9366 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">TestVerificationMethod</span>
-                <span class="method-start">9796 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">9812 ms</span>
-              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
